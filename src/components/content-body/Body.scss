@@ -1,0 +1,32 @@
+@import "../../template.scss";
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.new_add_container{
+    background-color: $color_blocks;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 40%;
+    height: 250px;
+    max-width: 500px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.add_info{
+    box-sizing: border-box;
+    width: 65%;
+    height:600px;
+    background-color: $color_blocks;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}

@@ -1,18 +1,13 @@
 import React from "react";
-import styles from "./styles.scss";
-
-const onClickEvent = (e) => {
-  e.preventDefault();
-  alert("You Clicked Me!");
-};
+import Header from "./components/header/Header";
+import Body from "./components/content-body/Body";
+import "./template.scss";
 
 const App = () => {
   return (
-    <div className={styles.content}>
-      <div className={styles.label}>Create React App Without CRA😊</div>
-      <button className={styles.btn} onClick={onClickEvent}>
-        Click Me 😎
-      </button>
+    <div>
+      <Header />
+      <Body />
     </div>
   );
 };

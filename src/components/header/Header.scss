@@ -1,0 +1,39 @@
+@import "../../template.scss";
+
+header {
+    width: 100%;
+    max-width: 1500px;
+    margin:0 auto;
+    height:80px;
+    background-color: $color_blocks;
+    -webkit-box-shadow: 0px 4px 6px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 6px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 6px -3px rgba(34, 60, 80, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+
+    .logo {
+        width:25%;
+        text-align:center;
+
+    }
+
+    .items{
+        width: 45%;
+        display:flex;
+        justify-content:space-between
+    }
+    .user_panel{
+        width: 30%;
+        display: flex;
+        justify-content: space-around
+    }
+
+};
+
+
+
+
+
